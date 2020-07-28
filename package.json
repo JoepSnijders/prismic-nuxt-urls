@@ -1,0 +1,19 @@
+{
+  "name": "prismic-sitemap-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/prismic": "^1.2.3",
+    "nuxt": "^2.13.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.0.0"
+  }
+}
