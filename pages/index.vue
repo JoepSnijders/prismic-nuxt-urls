@@ -4,9 +4,9 @@
     <ul>
       <li v-for="page in allContentPages" :key="page.data.id">
           {{ page }}
-          <prismic-link :field="page">
+          <nuxt-link :to="$prismic.linkResolver(page)">
             <prismic-rich-text :field="page.data.title" />
-          </prismic-link>
+          </nuxt-link>
       </li>
     </ul>
   </div>
